@@ -75,8 +75,8 @@ This workflow enables me to build and maintain complex multi-tenant SaaS systems
 
 | Project | Description | Link |
 |---------|-------------|------|
-| **Cislink** | Restaurant SaaS platform | [cislink.nl](https://cislink.nl) |
-| **De Langemuur** | Reservation system + POS | [delangemuur.web.app](https://delangemuur.web.app) |
+| **Cislink** | Website | [cislink.nl](https://cislink.nl) |
+| **Demo Restaurant mobiel bestelsysteem** | Reservation system + POS | [Demo entry](https://demo.cislink.nl/demo-entry.html) |
 
 ---
 
