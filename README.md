@@ -21,6 +21,8 @@
 
 Leveraging advanced AI workflows (Gemini/Claude) to deliver production-grade systems with **3x efficiency**.
 
+📖 **[My Philosophy: AI-Native Development →](./AI_NATIVE_DEVELOPER.md)**
+
 I build scalable cloud-native solutions that combine:
 - **Enterprise-grade reliability** — Event-driven architectures, zero-downtime deployments
 - **AI-first development** — LLM-powered agents, real-time voice AI, intelligent automation
@@ -127,7 +129,7 @@ graph TD
 
 - **📧 Email:** [admin@cislink.nl](mailto:admin@cislink.nl)
 - **📱 Phone:** [+31 6 8888 8188](tel:+31688888188)
-- **🔗 GitHub:** [github.com/CislinkNL](https://github.com/CislinkNL)
+- **🔗 GitHub:** [github.com/CislinkNL](https://github.com/CislinkNL/CislinkNL)
 - **🌐 Website:** [cislink.nl](https://cislink.nl)
 
 ---

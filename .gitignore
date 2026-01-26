@@ -6,6 +6,12 @@ env.yaml
 *.env
 .env.local
 
+# Job application documents (private)
+Motivatiebrief*.md
+CV_*.md
+*Sopra*.md
+*IMG*.md
+
 # Python
 __pycache__/
 *.py[cod]
