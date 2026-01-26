@@ -1,98 +1,109 @@
-# Sollicitatie Dossier: Sopra Steria
+# Hi there, I'm Junyi Zhu 👋
 
-**Functie:** Python Expert / Developer
-**Locatie:** Groningen, Nederland
-**Status:** In voorbereiding
+## AI-Augmented Cloud Architect | Python Specialist | SaaS Founder
 
----
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Claude](https://img.shields.io/badge/Claude-CC9966?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com/)
 
-## Overzicht
-
-Dit repository bevat mijn volledige sollicitatiedossier voor de functie van Python Developer bij Sopra Steria in Groningen. Ik ben een **AI-geaugmenteerde Full Stack Cloud Architect** met een sterke ondernemersachtergrond en een passie voor het bouwen van schaalbare cloud-native oplossingen.
-
-### Waarom ik de juiste match ben
-
-- **Lokaal in Groningen** - Direct beschikbaar, geen verhuizing nodig.
-- **Native Nederlands** - Vloeiend in de taal van de werkvloer en de klant.
-- **Cloud-Native Expertise** - Diepgaande ervaring met Python 3.11, GCP en event-driven architecturen.
-- **AI-Driven Workflow** - Realisatie van 3-5x hogere productiviteit door strategische inzet van AI (Gemini/Claude).
-- **Ondernemerschap** - Ervaring als solo-founder van multi-tenant SaaS platforms (Cislink).
-- **Full-Stack vaardigheden** - Van cloud-infra en Python backends tot Android (Kotlin).
+📍 **Groningen, The Netherlands** | 🤝 **Open to Hybrid/On-site** | 📧 admin@cislink.nl
 
 ---
 
-## Snelle Links
+## 🎯 The Hybrid Architect
 
-| Document | Beschrijving |
-|----------|-------------|
-| **[sollicitatiebrief.md](sollicitatiebrief.md)** | Mijn motivatiebrief op maat voor Sopra Steria |
-| **[cv-structure.md](cv-structure.md)** | CV met de focus op architectuur en resultaten |
-| **[PORTFOLIO_DEEP_DIVE.md](PORTFOLIO_DEEP_DIVE.md)** | **[NIEUW]** Technische diepgang in mijn grootste projecten |
-| **[interview-prep/](interview-prep/)** | Strategie en voorbereiding op het gesprek |
+> **I bridge the gap between Enterprise Stability and AI Innovation.**
 
----
+Leveraging advanced AI workflows (Gemini/Claude) to deliver production-grade systems with **3x efficiency**.
 
-## Kenmerkende Projecten
-
-### 1. Cislink Cloud Facturatiesysteem
-Een end-to-end facturatieplatform gebouwd op Python 3.11 en GCP Cloud Functions.
-- **Tech Stack:** Python, GCP Functions (Gen 2), Pub/Sub, Firestore.
-- **Impact:** Verwerkt €50K+ aan maandelijkse facturen; reductie van verwerkingstijd van 2 uur naar 10 seconden.
-
-### 2. AI Voice Operator
-Real-time conversationele AI-agent voor de horeca, gebruikmakend van de Gemini Live API.
-- **Tech Stack:** Async Python, Gemini API, WebRTC.
-- **Impact:** Proof-of-concept voor volledige automatisering van telefonische bestellingen.
-
-### 3. Voice AI Operator (Twilio + Gemini Live)
-Real-time conversationele AI-agent voor restaurants die telefonische reserveringen volledig automatiseert.
-- **Tech Stack:** Python 3.12 (Async), FastAPI, Google Gemini Live Native Audio API, Twilio Media Streams.
-- **Architectuur:** Twilio (mu-law 8kHz) ↔ WebSocket ↔ PCM ↔ Gemini Live API (bidirectionele audio).
-- **Impact:** Automatiseert reserveringsproces met Nederlandse voice AI; stuurt WhatsApp bevestigingen; deployed op Google Cloud Run.
-- **Link:** [github.com/CislinkNL/voice-ai-python](https://github.com/CislinkNL/voice-ai-python)
-
-### 4. Bonserver-Go (Dual-Engine)
-Een keuken-printserver die schaalbaarheid garandeert door een hybride Python/Go architectuur.
-- **Tech Stack:** Go (Golang), Python, ESC/POS hardware integratie.
-- **Impact:** 100% betrouwbaarheid tijdens piekuren in drukke restaurants.
+I build scalable cloud-native solutions that combine:
+- **Enterprise-grade reliability** — Event-driven architectures, zero-downtime deployments
+- **AI-first development** — LLM-powered agents, real-time voice AI, intelligent automation
+- **Full-stack delivery** — From bare metal (IoT/Android) to serverless backends
 
 ---
 
-## Architectuur Preview: Cislink Systeem
+## 🏆 Featured Projects
 
-Dit diagram toont de **Event-Driven Architectuur** die ik heb ontworpen voor schaalbaarheid en foutbestendigheid.
+| Project | Stack | Impact |
+|:--------|:------|:-------|
+| **🧾 [Cislink Cloud Invoice Engine](https://github.com/CislinkNL)** | ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square) ![GCP](https://img.shields.io/badge/GCP-Functions_2nd_Gen-4285F4?style=flat-square&logo=google-cloud) ![Pub/Sub](https://img.shields.io/badge/Pub--Sub-yellow-700?style=flat-square) | **Event-driven architecture** automating billing for 1000+ clients. Zero-maintenance serverless design. Processes €50K+ monthly invoices; reduced processing time from 2 hours → 10 seconds. |
+| **🤖 [Real-time AI Voice Operator](https://github.com/CislinkNL/voice-ai-python)** | ![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square) ![Gemini](https://img.shields.io/badge/Gemini_Live_API-4285F4?style=flat-square&logo=google) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square) | **Autonomous voice agent** handling restaurant reservations via phone. Replaces traditional IVR with GenAI. Deployed on Google Cloud Run; sends WhatsApp confirmations. |
+| **📱 Multi-Tenant POS Ecosystem** | ![Kotlin](https://img.shields.io/badge/Kotlin-Android-7F52FF?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase) ![IoT](https://img.shields.io/badge/IoT-ESC/POS-00979D?style=flat-square) | **End-to-end restaurant platform**: Android POS + Cloud backend + Kitchen printers. Dual-engine (Go+Python) print server for 100% uptime. |
+
+---
+
+## 🛠️ Technical Arsenal
+
+### Cloud & Backend
+- **Languages:** Python (3.11+), Go (Golang), Kotlin, TypeScript
+- **Cloud Platforms:** Google Cloud Platform (Cloud Run, Cloud Functions, Pub/Sub, Firestore)
+- **Architecture:** Event-driven, Serverless, Microservices
+- **Databases:** Firestore (NoSQL), PostgreSQL, Firebase Realtime Database
+
+### AI & LLMs
+- **Models:** Gemini 2.5 (Live API), Claude, GPT-4
+- **Applications:** Real-time voice AI, Function Calling, RAG systems, Multi-agent workflows
+- **Integration:** WebRTC, WebSocket, Twilio Media Streams
+
+### DevOps & Infrastructure
+- **Containerization:** Docker, Cloud Run
+- **CI/CD:** GitHub Actions, Cloud Build
+- **Monitoring:** Cloud Logging, Cloud Monitoring
+- **Hardware:** ESC/POS thermal printers, Android devices
+
+---
+
+## 🚀 Live Demo: AI-Augmented Automation
+
+Experience my Python & Cloud automation in action:
+
+[![Live Demo](https://img.shields.io/badge/DEMO-Interactive_CV_Generator-red?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cislinknl.github.io/about-me/cv-sender/cv-sender.html)
+
+**What happens behind the scenes:**
+1. Frontend (GitHub Pages) captures your request
+2. GCP Cloud Function (Python 3.11) generates a professional PDF on-the-fly
+3. Gmail API (OAuth2) delivers it securely
+
+**Tech Stack:** Python 3.11 · GCP Cloud Functions (Gen 2) · fpdf2 · GitHub Pages
+
+---
+
+## 📈 Architectural Preview
+
+Event-driven architecture I designed for scalability and fault tolerance:
 
 ```mermaid
 graph TD
-    subgraph Client Layer
+    subgraph Clients
         Web[Web Dashboard]
         POS[Android POS]
     end
 
-    subgraph "GCP Serverless Backend"
+    subgraph "GCP Serverless"
         API[API Gateway / Cloud Functions]
         Auth[Firebase Auth]
-        
+
         subgraph "Async Processing"
-            PubSub{Pub/Sub Topic: generate-invoice}
-            Worker[Cloud Function: Invoice Generator]
+            PubSub{Pub/Sub}
+            Worker[Invoice Generator]
         end
-        
-        DB[(Firestore NoSQL)]
-        Storage[(Cloud Storage Bucket)]
+
+        DB[(Firestore)]
+        Storage[(Cloud Storage)]
     end
 
     Web -->|HTTPS| API
     POS -->|HTTPS| API
-    API -->|Validatie| Auth
-    
-    API -->|1. Trigger Event| PubSub
-    PubSub -->|2. Push Subscription| Worker
-    
-    Worker -->|3. Data Fetch| DB
-    Worker -->|4. Genereer PDF| Worker
-    Worker -->|5. Sla op| Storage
-    Worker -->|6. Update Status| DB
+    API -->|Trigger| PubSub
+    PubSub -->|Push| Worker
+    Worker -->|Read/Write| DB
+    Worker -->|Store| Storage
 
     style Worker fill:#4285F4,stroke:#fff,color:#fff
     style PubSub fill:#FBBC05,stroke:#fff,color:#333
@@ -101,31 +112,24 @@ graph TD
 
 ---
 
-## Innovatie: AI-Geaugmenteerde Automatisering
+## 💼 Why I'm the Right Match
 
-Voor deze sollicitatie heb ik een interactief element toegevoegd. Ik heb een **Serverless Architecture** opgezet die mijn dossier on-the-fly genereert en verzendt.
-
-### 🚀 Live Interactieve Demo
-Wilt u de kracht van mijn Python & Cloud automatisering direct in actie zien?
-
-[![Live Demo](https://img.shields.io/badge/DEMO-Open_Live_CV_Generator-red?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cislinknl.github.io/about-me/cv-sender/cv-sender.html)
-
-1.  **Klik op de bovenstaande knop** om de generator te openen.
-2.  Voer uw zakelijke e-mailadres in of klik op **"Bekijk PDF"**.
-3.  Mijn **GCP Cloud Function** genereert on-the-fly een professionele PDF.
-
-> **Technische Stack van deze demo:**
-> *   **Hosting:** GitHub Pages (Frontend)
-> *   **Backend:** Python 3.11 op Google Cloud Functions (Gen 2)
-> *   **Auth:** Gmail API met OAuth2 beveiliging
-> *   **PDF Engine:** Custom Python script (`fpdf2`)
+- **📍 Local to Groningen** — Immediately available, no relocation needed
+- **🗣️ Native Dutch** — Fluent in the language of the workplace and clients
+- **☁️ Cloud-Native Expertise** — Deep experience with Python 3.11+, GCP, event-driven architectures
+- **🤖 AI-Driven Workflow** — 3-5x productivity boost through strategic AI (Gemini/Claude) integration
+- **🚀 Entrepreneurial DNA** — Solo-founder of multi-tenant SaaS platforms (Cislink)
+- **🔧 Full-Stack Delivery** — From cloud infra & Python backends to Android (Kotlin)
 
 ---
 
-## Contact
+## 📬 Get In Touch
 
-**Naam:** Junyi Zhu
-**Locatie:** Groningen, Nederland
-**E-mail:** admin@cislink.nl
-**Telefoon:** +31 6 8888 8188
-**GitHub:** [github.com/CislinkNL](https://github.com/CislinkNL)
+- **📧 Email:** [admin@cislink.nl](mailto:admin@cislink.nl)
+- **📱 Phone:** [+31 6 8888 8188](tel:+31688888188)
+- **🔗 GitHub:** [github.com/CislinkNL](https://github.com/CislinkNL)
+- **🌐 Website:** [cislink.nl](https://cislink.nl)
+
+---
+
+*Built with ⚡ by an AI-augmented developer in Groningen, Netherlands*
