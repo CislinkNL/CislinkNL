@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junyi Zhu - Python Expert / Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header .title {
+            font-size: 1.2rem;
+            color: #00d9ff;
+            margin-bottom: 20px;
+        }
+
+        header .tagline {
+            color: #a0a0a0;
+            font-size: 1rem;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .card h2 {
+            color: #00d9ff;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+
+        .profile-section {
+            text-align: center;
+        }
+
+        .profile-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #00d9ff, #00ff88);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 10px 0;
+            color: #e0e0e0;
+        }
+
+        .contact-item a {
+            color: #00d9ff;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill-tag {
+            background: rgba(0, 217, 255, 0.2);
+            color: #00d9ff;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .project-item {
+            margin-bottom: 20px;
+        }
+
+        .project-item h3 {
+            color: white;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .project-item p {
+            color: #a0a0a0;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .project-item .tech-stack {
+            margin-top: 8px;
+            font-size: 0.85rem;
+            color: #00ff88;
+        }
+
+        .project-item .metric {
+            display: inline-block;
+            background: rgba(0, 255, 136, 0.2);
+            color: #00ff88;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-top: 8px;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #00d9ff, #00ff88);
+            color: #1a1a2e;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 217, 255, 0.3);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .ai-workflow {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0, 217, 255, 0.1);
+            border-radius: 12px;
+            border-left: 4px solid #00d9ff;
+        }
+
+        .ai-workflow h3 {
+            color: #00d9ff;
+            margin-bottom: 10px;
+        }
+
+        .ai-workflow p {
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        .ai-workflow .divider {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 15px 0;
+            color: #00ff88;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #606060;
+            font-size: 0.9rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+        }
+
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #00ff88;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: #a0a0a0;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Junyi Zhu</h1>
+            <div class="title">AI-Augmented Full Stack Cloud Architect</div>
+            <div class="tagline">Groningen | Python Expert | GCP & Firebase | 3-5x Productivity through AI</div>
+        </header>
+
+        <div class="main-content">
+            <div class="card">
+                <h2>Over Mij</h2>
+                <div class="profile-section">
+                    <div class="profile-avatar">JZ</div>
+                    <p style="color: #e0e0e0; line-height: 1.6;">
+                        Ik ben een cloud architect en ondernemer die end-to-end softwareoplossingen bouwt.
+                        Als AI-geaugmenteerde developer lever ik enterprise-grade oplossingen met de efficiëntie
+                        van een solo founder.
+                    </p>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <a href="mailto:admin@cislink.nl">admin@cislink.nl</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>📱</span>
+                        <span>+31 6 8888 8188</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <span>Groningen, Nederland</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>🐙</span>
+                        <a href="https://github.com/CislinkNL" target="_blank">github.com/CislinkNL</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Signature Projecten</h2>
+
+                <div class="project-item">
+                    <h3>Cislink Cloud Invoice System</h3>
+                    <p>Multi-tenant SaaS voor restaurants met geautomatiseerde factuurgeneratie, QR ordering en POS integratie.</p>
+                    <div class="metric">2 uur → 10 seconden per factuur</div>
+                    <div class="metric">€50K+ maandvolume</div>
+                    <div class="tech-stack">Python 3.11, GCP Cloud Functions, Pub/Sub, Firestore</div>
+                </div>
+
+                <div class="project-item">
+                    <h3>AI Voice Operator</h3>
+                    <p>Real-time conversational AI agent voor klantenservice automatisering.</p>
+                    <div class="metric">&lt;500ms latentie</div>
+                    <div class="metric">2-week prototype</div>
+                    <div class="tech-stack">Python async, Gemini Live API, WebRTC</div>
+                </div>
+
+                <div class="project-item">
+                    <h3>Android POS Ecosystem</h3>
+                    <p>Compleet point-of-sale systeem met offline-first architectuur.</p>
+                    <div class="metric">1000+ orders/maand</div>
+                    <div class="metric">99.9% uptime</div>
+                    <div class="tech-stack">Kotlin, Firebase, ESC/POS printers</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Technische Skills</h2>
+                <div class="skills-list">
+                    <span class="skill-tag">Python 3.11+</span>
+                    <span class="skill-tag">GCP</span>
+                    <span class="skill-tag">Cloud Functions</span>
+                    <span class="skill-tag">Pub/Sub</span>
+                    <span class="skill-tag">Firestore</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">Kotlin</span>
+                    <span class="skill-tag">Android</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">AI/ML</span>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">10+</div>
+                        <div class="stat-label">Restaurant Locaties</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">3-5x</div>
+                        <div class="stat-label">Productiviteit</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">99.9%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>AI-Augmented Development</h2>
+                <div class="ai-workflow">
+                    <h3>Ik ben de Architect, AI is mijn Junior Developer</h3>
+                    <p>
+                        Ik gebruik AI tools (Gemini, Claude) strategisch om 3-5x productiviteit te bereiken
+                        zonder concessies te doen aan kwaliteit.
+                    </p>
+                    <div class="divider">
+                        <span>━━━━━━━━</span>
+                    </div>
+                    <p><strong>Ik doe:</strong> Architectuur, Security, Business Logic, Code Review</p>
+                    <p><strong>AI doet:</strong> Boilerplate, Tests, Documentatie</p>
+                    <div class="divider">
+                        <span>━━━━━━━━</span>
+                    </div>
+                    <p style="font-size: 0.9rem; color: #a0a0a0;">
+                        Resultaat: Complexe multi-tenant SaaS systemen solo bouwen en beheren
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <a href="https://github.com/CislinkNL/about-me" class="btn btn-primary" target="_blank">📂 GitHub Portfolio</a>
+            <a href="https://cislink.nl" class="btn btn-secondary" target="_blank">🌐 cislink.nl</a>
+            <a href="mailto:admin@cislink.nl" class="btn btn-secondary">📧 Neem Contact Op</a>
+        </div>
+
+        <footer>
+            <p>Gebouwd met Python, Cloud, en AI | Groningen, Nederland</p>
+            <p style="margin-top: 10px;">
+                <a href="https://github.com/CislinkNL" style="color: #00d9ff; text-decoration: none;">github.com/CislinkNL</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
