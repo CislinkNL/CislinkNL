@@ -3,11 +3,12 @@
 ## AI-Augmented Cloud Architect | Python Specialist | SaaS Founder
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Vue](https://img.shields.io/badge/Vue.js-3.11%2B-42b883?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
+[![Nuxt](https://img.shields.io/badge/Nuxt-3.11%2B-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)](https://nuxt.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
 [![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![Claude](https://img.shields.io/badge/Claude-CC9966?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com/)
 
@@ -36,6 +37,8 @@ I build scalable cloud-native solutions that combine:
 |:--------|:------|:-------|
 | **🧾 [Cislink Cloud Invoice Engine](https://github.com/CislinkNL)** | ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square) ![GCP](https://img.shields.io/badge/GCP-Functions_2nd_Gen-4285F4?style=flat-square&logo=google-cloud) ![Pub/Sub](https://img.shields.io/badge/Pub--Sub-yellow-700?style=flat-square) | **Event-driven architecture** automating billing for 1000+ clients. Zero-maintenance serverless design. Processes €50K+ monthly invoices; reduced processing time from 2 hours → 10 seconds. |
 | **🤖 [Real-time AI Voice Operator](tel:+3197010256688)** | ![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square) ![Gemini](https://img.shields.io/badge/Gemini_Live_API-4285F4?style=flat-square&logo=google) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square) | **Autonomous voice agent** handling restaurant reservations via phone. Replaces traditional IVR with GenAI. Deployed on Google Cloud Run; sends WhatsApp confirmations. |
+| **🌐 [Multi-Tenant Food Delivery Platform](https://mealone.web.app)** | ![Vue](https://img.shields.io/badge/Vue-3.11%2B-42b883?style=flat-square) ![Nuxt](https://img.shields.io/badge/Nuxt-3.11%2B-00DC82?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square) | **Full-stack Nuxt 3 app** for 500+ restaurants. Multi-tenant architecture with dynamic theming, Stripe payments (iDEAL/Bancontact), Firebase Realtime DB, and location-based routing. |
+| **🍽️ [De Langemuur Restaurant Platform](https://langemuur-vlissingen.web.app)** | ![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=next.js) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase) ![Python](https://img.shields.io/badge/Python-Functions-4285F4?style=flat-square) | **End-to-end restaurant system**: Booking website (Next.js) → Firebase → Cloud Functions → C-language POS integration. QR ordering + Staff panel + WhatsApp notifications. |
 | **📱 [Multi-Tenant POS Ecosystem](https://demo.cislink.nl/demo-entry.html)** | ![Kotlin](https://img.shields.io/badge/Kotlin-Android-7F52FF?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase) ![IoT](https://img.shields.io/badge/IoT-ESC/POS-00979D?style=flat-square) | **End-to-end restaurant platform**: Android POS + Cloud backend + Kitchen printers. Dual-engine (Go+Python) print server for 100% uptime. |
 
 ---
