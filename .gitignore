@@ -1,0 +1,22 @@
+# Interview preparation materials (private)
+interview-prep/
+
+# Sensitive configuration files
+env.yaml
+*.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
