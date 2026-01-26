@@ -44,7 +44,14 @@ Real-time conversationele AI-agent voor de horeca, gebruikmakend van de Gemini L
 - **Tech Stack:** Async Python, Gemini API, WebRTC.
 - **Impact:** Proof-of-concept voor volledige automatisering van telefonische bestellingen.
 
-### 3. Bonserver-Go (Dual-Engine)
+### 3. Voice AI Operator (Twilio + Gemini Live)
+Real-time conversationele AI-agent voor restaurants die telefonische reserveringen volledig automatiseert.
+- **Tech Stack:** Python 3.12 (Async), FastAPI, Google Gemini Live Native Audio API, Twilio Media Streams.
+- **Architectuur:** Twilio (mu-law 8kHz) ↔ WebSocket ↔ PCM ↔ Gemini Live API (bidirectionele audio).
+- **Impact:** Automatiseert reserveringsproces met Nederlandse voice AI; stuurt WhatsApp bevestigingen; deployed op Google Cloud Run.
+- **Link:** [github.com/CislinkNL/voice-ai-python](https://github.com/CislinkNL/voice-ai-python)
+
+### 4. Bonserver-Go (Dual-Engine)
 Een keuken-printserver die schaalbaarheid garandeert door een hybride Python/Go architectuur.
 - **Tech Stack:** Go (Golang), Python, ESC/POS hardware integratie.
 - **Impact:** 100% betrouwbaarheid tijdens piekuren in drukke restaurants.
