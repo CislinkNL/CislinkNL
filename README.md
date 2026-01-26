@@ -33,8 +33,8 @@ I build scalable cloud-native solutions that combine:
 | Project | Stack | Impact |
 |:--------|:------|:-------|
 | **🧾 [Cislink Cloud Invoice Engine](https://github.com/CislinkNL)** | ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square) ![GCP](https://img.shields.io/badge/GCP-Functions_2nd_Gen-4285F4?style=flat-square&logo=google-cloud) ![Pub/Sub](https://img.shields.io/badge/Pub--Sub-yellow-700?style=flat-square) | **Event-driven architecture** automating billing for 1000+ clients. Zero-maintenance serverless design. Processes €50K+ monthly invoices; reduced processing time from 2 hours → 10 seconds. |
-| **🤖 [Real-time AI Voice Operator](https://github.com/CislinkNL/voice-ai-python)** | ![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square) ![Gemini](https://img.shields.io/badge/Gemini_Live_API-4285F4?style=flat-square&logo=google) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square) | **Autonomous voice agent** handling restaurant reservations via phone. Replaces traditional IVR with GenAI. Deployed on Google Cloud Run; sends WhatsApp confirmations. |
-| **📱 Multi-Tenant POS Ecosystem** | ![Kotlin](https://img.shields.io/badge/Kotlin-Android-7F52FF?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase) ![IoT](https://img.shields.io/badge/IoT-ESC/POS-00979D?style=flat-square) | **End-to-end restaurant platform**: Android POS + Cloud backend + Kitchen printers. Dual-engine (Go+Python) print server for 100% uptime. |
+| **🤖 [Real-time AI Voice Operator](tel:+3197010256688)** | ![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square) ![Gemini](https://img.shields.io/badge/Gemini_Live_API-4285F4?style=flat-square&logo=google) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square) | **Autonomous voice agent** handling restaurant reservations via phone. Replaces traditional IVR with GenAI. Deployed on Google Cloud Run; sends WhatsApp confirmations. |
+| **📱 [Multi-Tenant POS Ecosystem](https://demo.cislink.nl/demo-entry.html)** | ![Kotlin](https://img.shields.io/badge/Kotlin-Android-7F52FF?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase) ![IoT](https://img.shields.io/badge/IoT-ESC/POS-00979D?style=flat-square) | **End-to-end restaurant platform**: Android POS + Cloud backend + Kitchen printers. Dual-engine (Go+Python) print server for 100% uptime. |
 
 ---
 
@@ -63,7 +63,7 @@ I build scalable cloud-native solutions that combine:
 
 Experience my Python & Cloud automation in action:
 
-[![Live Demo](https://img.shields.io/badge/DEMO-Interactive_CV_Generator-red?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cislinknl.github.io/about-me/cv-sender/cv-sender.html)
+[![Live Demo](https://img.shields.io/badge/DEMO-Interactive_CV_Generator-red?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cislinknl.github.io/CislinkNL/cv-sender/cv-sender.html)
 
 **What happens behind the scenes:**
 1. Frontend (GitHub Pages) captures your request
