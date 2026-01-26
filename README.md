@@ -1,7 +1,7 @@
-# Junyi Zhang
+# Junyi Zhu
 **AI-Augmented Full Stack Cloud Architect** | Groningen, Netherlands
 
-[![Email](https://img.shields.io/badge/Email-Contact?logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/Email-Contact?logo=gmail&logoColor=white)](mailto:admin@cislink.nl)
 [![GitHub](https://img.shields.io/badge/GitHub-CislinkNL-181717?logo=github&logoColor=white)](https://github.com/CislinkNL)
 [![Location](https://img.shields.io/badge/Location-Groningen-blue)]()
 
@@ -82,7 +82,8 @@ This workflow enables me to build and maintain complex multi-tenant SaaS systems
 
 ## Contact
 
-- **Email:** your.email@example.com
+- **Email:** admin@cislink.nl
+- **Phone:** +31 6 8888 8188
 - **Location:** Groningen, Netherlands
 - **GitHub:** [github.com/CislinkNL](https://github.com/CislinkNL)
 
