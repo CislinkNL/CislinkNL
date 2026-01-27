@@ -1,0 +1,4 @@
+functions-framework==3.*
+fpdf2==2.7.6
+google-auth==2.*
+google-api-python-client==2.*
