@@ -37,7 +37,7 @@ I build scalable cloud-native solutions that combine:
 |:--------|:------|:-------|
 | **🧾 [Cislink Cloud Invoice Engine](https://github.com/CislinkNL)** | ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square) ![GCP](https://img.shields.io/badge/GCP-Functions_2nd_Gen-4285F4?style=flat-square&logo=google-cloud) ![Pub/Sub](https://img.shields.io/badge/Pub--Sub-yellow-700?style=flat-square) | **Event-driven architecture** automating billing for 1000+ clients. Zero-maintenance serverless design. Processes €50K+ monthly invoices; reduced processing time from 2 hours → 10 seconds. |
 | **🤖 [Real-time AI Voice Operator](tel:+3197010256688)** | ![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square) ![Gemini](https://img.shields.io/badge/Gemini_Live_API-4285F4?style=flat-square&logo=google) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square) | **Autonomous voice agent** handling restaurant reservations via phone. Replaces traditional IVR with GenAI. Deployed on Google Cloud Run; sends WhatsApp confirmations. |
-| **🌐 [Multi-Tenant Food Delivery Platform](https://mealone.web.app)** | ![Vue](https://img.shields.io/badge/Vue-3.11%2B-42b883?style=flat-square) ![Nuxt](https://img.shields.io/badge/Nuxt-3.11%2B-00DC82?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square) | **Full-stack Nuxt 3 app** for 500+ restaurants. Multi-tenant architecture with dynamic theming, Stripe payments (iDEAL/Bancontact), Firebase Realtime DB, and location-based routing. |
+| **🌐 [Multi-Tenant Food Delivery Platform](https://mealone.web.app)** | ![Vue](https://img.shields.io/badge/Vue-3.11%2B-42b883?style=flat-square) ![Nuxt](https://img.shields.io/badge/Nuxt-3.11%2B-00DC82?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square) | **Startup venture, full-stack solo development**. Multi-tenant Nuxt 3 app for 500+ restaurants. Dynamic theming, Stripe payments (iDEAL/Bancontact), Firebase Realtime DB, location-based routing. **Currently in prototype device testing phase.** |
 | **🍽️ [De Langemuur Restaurant Platform](https://langemuur-vlissingen.web.app)** | ![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=next.js) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase) ![Python](https://img.shields.io/badge/Python-Functions-4285F4?style=flat-square) | **End-to-end restaurant system**: Booking website (Next.js) → Firebase → Cloud Functions → C-language POS integration. QR ordering + Staff panel + WhatsApp notifications. |
 | **📱 [Multi-Tenant POS Ecosystem](https://demo.cislink.nl/demo-entry.html)** | ![Kotlin](https://img.shields.io/badge/Kotlin-Android-7F52FF?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase) ![IoT](https://img.shields.io/badge/IoT-ESC/POS-00979D?style=flat-square) | **End-to-end restaurant platform**: Android POS + Cloud backend + Kitchen printers. Dual-engine (Go+Python) print server for 100% uptime. |
 
@@ -52,8 +52,8 @@ I build scalable cloud-native solutions that combine:
 - **Databases:** Firestore (NoSQL), PostgreSQL, Firebase Realtime Database
 
 ### AI & LLMs
-- **Models:** Gemini 2.5 (Live API), Claude, GPT-4
-- **Applications:** Real-time voice AI, Function Calling, RAG systems, Multi-agent workflows
+- **Models:** Gemini 2.5 Flash Native Audio (preview-12-2025), Claude 4.5, GPT-5.2
+- **Applications:** Real-time voice AI, Function Calling, Agentic systems, Multi-step workflows
 - **Integration:** WebRTC, WebSocket, Twilio Media Streams
 
 ### DevOps & Infrastructure
