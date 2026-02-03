@@ -2,13 +2,18 @@ import os
 import json
 import base64
 from email.message import EmailMessage
-from fpdf import FPDF
 import functions_framework
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
 # --- CONFIGURATION ---
 GMAIL_TOKEN_JSON_STR = os.environ.get('GMAIL_TOKEN_JSON')
+PDF_FILE_PATH = 'AI_Augmented_Cloud_Architect.pdf'
+
+def get_static_pdf():
+    """Read and return the static PDF file bytes"""
+    with open(PDF_FILE_PATH, 'rb') as f:
+        return f.read()
 
 class ProfessionalPDF(FPDF):
     def header(self):
@@ -181,12 +186,11 @@ def send_cv(request):
                 cv_type = request_json['type']
 
     try:
-        pdf_bytes = create_pdf(cv_type)
-
-        filename = 'Junyi_Zhu_FullStack_CV.pdf' if cv_type == 'fullstack' else 'Junyi_Zhu_CV.pdf'
+        pdf_bytes = get_static_pdf()
+        filename = 'Junyi_Zhu_CV.pdf'
 
         if not email:
-            return (bytes(pdf_bytes), 200, {
+            return (pdf_bytes, 200, {
                 **headers,
                 'Content-Type': 'application/pdf',
                 'Content-Disposition': f'inline; filename="{filename}"'
